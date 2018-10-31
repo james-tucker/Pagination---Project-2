@@ -23,6 +23,12 @@ body{
     color: #555;
   }
 
+  .no-result {
+    text-align: center;
+    padding-top: 50px;
+
+  }
+
   .page-header .student-search{
     float: right;
   }
@@ -99,7 +105,7 @@ body{
   margin: 40px 0 0 0;
   text-align: center;
 }
-
+ 
   .pagination li{
     display: inline;
   }
@@ -117,7 +123,4 @@ body{
       background-color: #4ba6c3;
       color: #fff;
     }
-
-ul.initialhide .student-item.cf:nth-of-type(n+11){
-    display: none;
-}
+    
